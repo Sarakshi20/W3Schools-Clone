@@ -1,0 +1,47 @@
+h1{
+    font-weight: bolder;
+}
+
+.main-box{
+    width: 800px;
+    padding: 50px;
+    height: 600px;
+}
+
+.example{
+    background-color: aqua;
+}
+
+.language{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+.buttons{
+    max-height: 200px;
+}
+
+.buttons > *{
+    width: 200px;
+    border: none;
+}
+
+.But:nth-child(1){
+    background-color: #04AA6D;
+    color: white;
+}
+
+.But:nth-child(3){
+    background-color: #FFC0C7;
+}
+
+.abc{
+    background-color: #e7e9eb;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+

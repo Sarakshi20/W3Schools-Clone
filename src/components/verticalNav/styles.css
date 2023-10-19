@@ -1,0 +1,9 @@
+.marg{
+    @media (min-width: 992px) and (max-width: 1199px){ 
+        margin-top: 230px;
+    };
+
+    @media (min-width: 1200px) { 
+        margin-top: 150px;
+     };
+}

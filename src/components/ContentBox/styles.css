@@ -1,0 +1,7 @@
+.media{
+    @media (min-width: 768px) { 
+        padding-left: 150px;
+        overflow-x: hidden;
+    };
+}
+
