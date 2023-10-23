@@ -35,8 +35,16 @@ h1{
     color: white;
 }
 
+.But:nth-child(1):hover{
+    background-color: #059862;
+}
+
 .But:nth-child(3){
     background-color: #FFC0C7;
+}
+
+.But:nth-child(3):hover{
+    background-color: #ffb3bb;
 }
 
 .abc{

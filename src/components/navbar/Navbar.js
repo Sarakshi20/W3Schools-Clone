@@ -8,6 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar2 from '../navbar2/Navbar2';
 import { Button, ButtonGroup, Col, Row } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
+import './styles.css';
 
 function NavHome(){
     const Navigate = useNavigate();
@@ -16,16 +17,16 @@ function NavHome(){
     }
     return(
     <div style={{position: "fixed",width:"100%",zIndex:2}}>
-    <Navbar expand="md" className="bg-white">
-        <Container fluid>
+    <Navbar expand="md" className="bg-white py-0">
+        <Container fluid className='py-0'>
             <Navbar.Brand href="#" onClick={handleNavigate}><Image src="https://www.computerhope.com/jargon/w/w3schools.png" style={{height:37}} fluid/></Navbar.Brand>
             <Navbar.Toggle aria-controls="navbarScroll" />
             <Navbar.Collapse id="navbarScroll">
                 <Nav
-                className="me-auto my-2 my-lg-0"
+                className="me-auto my-lg-0"
                 navbarScroll
                 >
-                <NavDropdown title="Tutorials" id="navbarScrollingDropdown" className='w-100' style={{position:"static",overflow:"scroll"}}>
+                <NavDropdown title="Tutorials" id="navbarScrollingDropdown" className='w-100 navbarHov py-2' style={{position:"static",overflow:"scroll"}}>
                     <Container className='col-12 py-5' style={{width:"1800px",backgroundColor:"#282a35"}}>
                         <Row className='mx-xl-5 ps-xl-5 text-light'>
                             <Col lg={10} xl={9} className='lg-mx-5'>
@@ -97,11 +98,11 @@ function NavHome(){
                         </Row>
                     </Container>
                 </NavDropdown>
-                <NavDropdown title="Exercises" id="navbarScrollingDropdown" className='mx-2'></NavDropdown>
-                <NavDropdown title="Get Certified" id="navbarScrollingDropdown" className='mx-2'></NavDropdown>
-                <NavDropdown title="Services" id="navbarScrollingDropdown" className='mx-2'></NavDropdown>
+                <NavDropdown title="Exercises" id="navbarScrollingDropdown" className='mx-2 py-2 navbarHov'></NavDropdown>
+                <NavDropdown title="Get Certified" id="navbarScrollingDropdown" className='mx-2 py-2 navbarHov'></NavDropdown>
+                <NavDropdown title="Services" id="navbarScrollingDropdown" className='mx-2 py-2 navbarHov'></NavDropdown>
 
-            <div className='d-none d-lg-flex justify-content-center align-content-center'>
+            <div className='d-none d-lg-flex justify-content-center align-content-center py-2'>
                 <Form>
                     <Form.Control
                     style={{borderRadius: 20,width: 170,height:34}}

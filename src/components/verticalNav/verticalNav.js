@@ -3,7 +3,7 @@ import { Container } from 'react-bootstrap'
 
 function VerticalNav() {
   return (
-    <Container className='px-0 d-none d-md-flex' style={{paddingTop:"94px",position:"fixed",top:"0",boxSizing:"border-box",
+    <Container className='px-0 d-none d-md-flex' style={{paddingTop:"88px",position:"fixed",top:"0",boxSizing:"border-box",
     overflowX:"hidden",bottom:"0"}}>
         <div style={{backgroundColor:"#e7e9eb",overflowY:"scroll"}}>
             <Container fluid className='d-flex flex-column mx-0 px-0'>
