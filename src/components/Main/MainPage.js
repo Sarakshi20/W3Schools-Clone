@@ -1,6 +1,5 @@
 import React from 'react'
 import { Button, Container, InputGroup ,Form} from 'react-bootstrap';
-import "./MainPage.css";
 
 function MainPage() {
   const buttonStyle = {

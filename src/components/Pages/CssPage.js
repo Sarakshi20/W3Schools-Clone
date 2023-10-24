@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from "../navbar/Navbar";
 import VerticalNavCss from '../VerticalnavCss/VerticalnavCss';
-import ContentBoxCss from '../ContentBoxCss/ContentBoxCss';
+import ContentBoxCss from '../CSSPageContent/ContentBoxCss/ContentBoxCss';
 
 
 function CssPage() {

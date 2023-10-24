@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from "../navbar/Navbar";
 import VerticalNav from '../verticalNav/verticalNav';
-import ContentBoxIntro from '../ContentIntro/ContentBoxIntro';
+import ContentBoxIntro from '../HTMLPageContent/ContentIntro/ContentBoxIntro';
 
 function HtmlIntro() {
   return (

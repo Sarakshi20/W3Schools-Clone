@@ -1,7 +1,7 @@
 import React from 'react'
 import { Button, Container ,Row, Col,Image} from 'react-bootstrap'
-import Footer from '../Footer/Footer'
-import Html from '../Main-languages/LanguagesCode/Html'
+import Footer from '../../Footer/Footer'
+import Html from '../../Main-languages/LanguagesCode/Html'
 
 function ContentBoxEditor() {
   return (

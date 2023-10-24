@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from "../navbar/Navbar"
 import VerticalNav from '../verticalNav/verticalNav';
-import ContentBox from '../ContentBox/ContentBox';
+import ContentBox from '../HTMLPageContent/ContentBox/ContentBox';
 
 function HtmlPage() {
   return (

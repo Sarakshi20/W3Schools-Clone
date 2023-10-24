@@ -1,5 +1,4 @@
 import React from 'react'
-import "./MainLanguages.css";
 import { Row, Col, Container, Stack} from 'react-bootstrap';
 
 function Mainlanguage(props) {

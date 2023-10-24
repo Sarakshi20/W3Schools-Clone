@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from "../navbar/Navbar";
 import VerticalNav from '../verticalNav/verticalNav';
-import ContentBoxEditor from '../ContentBoxEditor/ContentBoxEditor';
+import ContentBoxEditor from '../HTMLPageContent/ContentBoxEditor/ContentBoxEditor';
 
 function HtmlEditor() {
   return (

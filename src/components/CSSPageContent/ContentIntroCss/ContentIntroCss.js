@@ -1,7 +1,7 @@
 import React from 'react'
 import { Button, Container ,Row, Col} from 'react-bootstrap'
-import Footer from '../Footer/Footer'
-import Css from '../Main-languages/LanguagesCode/Css'
+import Footer from '../../Footer/Footer'
+import Css from '../../Main-languages/LanguagesCode/Css'
 
 function ContentBoxIntro() {
   return (

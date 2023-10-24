@@ -1,5 +1,7 @@
-.marg{
-    @media (min-width: 992px) and (max-width: 1199px){ 
-        margin-top: 220px;
-    };
+.paraCol{
+    cursor: pointer;    
+}
+
+.paraCol:hover{
+    background-color: #cccccc;
 }
