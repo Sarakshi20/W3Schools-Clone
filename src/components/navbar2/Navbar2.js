@@ -11,6 +11,9 @@ function Navbar2() {
   function handleNavigate(){
     Navigate('/html/home');
   }
+  function handleNavigate2(){
+    Navigate('/css/home');
+  }
   return (
     <Navbar style={{height: "30px",backgroundColor:"#282a35",overflowY:"hidden"}}>
       <Container className='overflow-x-scroll d-flex mx-auto mt-2 mb-1' fluid>
@@ -18,7 +21,7 @@ function Navbar2() {
             className="pb-1 my-lg-0 mx-auto"
           >
               <Nav.Link className='text-white me-2 navbarHover' onClick={handleNavigate}>HTML</Nav.Link>
-              <Nav.Link href="#action2" className='text-white mx-2 navbarHover'>CSS</Nav.Link>
+              <Nav.Link href="#action2" className='text-white mx-2 navbarHover' onClick={handleNavigate2}>CSS</Nav.Link>
               <Nav.Link href="#action3" className='text-white mx-2 navbarHover'>JAVASCRIPT</Nav.Link>
               <Nav.Link href="#action4" className='text-white mx-2 navbarHover'>SQL</Nav.Link>
               <Nav.Link href="#action5" className='text-white mx-2 navbarHover'>PYTHON</Nav.Link>

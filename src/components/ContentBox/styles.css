@@ -1,7 +1,21 @@
 .media{
+    @media (max-width: 767px){
+        padding-left: 0;
+        overflow-x: hidden;
+    }
+
     @media (min-width: 768px) { 
         padding-left: 150px;
         overflow-x: hidden;
     };
 }
 
+.media2{
+    @media (max-width: 767px){
+        margin-right:20px;
+    };
+
+    @media (min-width: 768px) { 
+        margin-right:90px;
+    };
+}

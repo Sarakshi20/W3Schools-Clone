@@ -1,7 +1,21 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
+import { useNavigate } from 'react-router-dom'
 
 function VerticalNav() {
+  const navigate = useNavigate();
+  function Navigate(){
+    navigate("/html/home");
+  }
+
+  function Navigate2(){
+    navigate("/html/intro");
+  }
+
+  function Navigate3(){
+    navigate("/html/editors");
+  }
+
   return (
     <Container className='px-0 d-none d-md-flex' style={{paddingTop:"88px",position:"fixed",top:"0",boxSizing:"border-box",
     overflowX:"hidden",bottom:"0"}}>
@@ -9,9 +23,9 @@ function VerticalNav() {
             <Container fluid className='d-flex flex-column mx-0 px-0'>
             <h4 className='text-dark my-0 ps-3 pe-1 my-3 pe-5'>HTML Tutorial</h4>
                 <div className="flex-column">
-                    <p className='text-light my-0 ps-3' style={{backgroundColor:"rgb(4, 170, 109)"}}>HTML HOME</p>
-                    <p className='text-dark my-0 ps-3'>HTML Introduction</p>
-                    <p className='text-dark my-0 ps-3'>HTML Editors</p>
+                    <p className='text-light my-0 ps-3' style={{backgroundColor:"rgb(4, 170, 109)"}} onClick={Navigate}>HTML HOME</p>
+                    <p className='text-dark my-0 ps-3' onClick={Navigate2}>HTML Introduction</p>
+                    <p className='text-dark my-0 ps-3' onClick={Navigate3}>HTML Editors</p>
                     <p className='text-dark my-0 ps-3'>HTML Basic</p>
                     <p className='text-dark my-0 ps-3'>HTML Elements</p>
                     <p className='text-dark my-0 ps-3'>HTML Attributes</p>
