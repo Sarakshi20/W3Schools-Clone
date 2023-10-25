@@ -45,14 +45,12 @@ function VerticalNavCss() {
                     <p className='text-dark my-0 ps-3 paraCol'>CSS Tables</p>
                     <p className='text-dark my-0 ps-3 paraCol'>CSS Display</p>
                     <p className='text-dark my-0 ps-3 paraCol'>CSS Max-width</p>
-                    <p className='text-dark my-0 ps-3 paraCol'>CSS Position</p>
-                    <p className='text-dark my-0 ps-3 paraCol'>CSS Position</p>
-                    <p className='text-dark my-0 ps-3 paraCol'>CSS Position</p>
-                    <p className='text-dark my-0 ps-3 paraCol'>CSS Position</p>
-                    <p className='text-dark my-0 ps-3 paraCol'>CSS Position</p>
-                    <p className='text-dark my-0 ps-3 paraCol'>CSS Position</p>
-                    <p className='text-dark my-0 ps-3 paraCol'>CSS Position</p>
-                    <p className='text-dark my-0 ps-3 paraCol'>CSS Position</p>
+                    <p className='text-dark my-0 ps-3 paraCol'>CSS Z-Index</p>
+                    <p className='text-dark my-0 ps-3 paraCol'>CSS Overflow</p>
+                    <p className='text-dark my-0 ps-3 paraCol'>CSS Float</p>
+                    <p className='text-dark my-0 ps-3 paraCol'>CSS Inline-block</p>
+                    <p className='text-dark my-0 ps-3 paraCol'>CSS Align</p>
+                    <p className='text-dark my-0 ps-3 paraCol'>CSS Combinators</p>
                 </div>
             </Container>
         </div>

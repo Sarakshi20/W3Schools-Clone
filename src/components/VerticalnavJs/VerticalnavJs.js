@@ -17,7 +17,7 @@ function VerticalNavJS() {
     overflowX:"hidden",bottom:"0"}}>
         <div style={{backgroundColor:"#e7e9eb",overflowY:"scroll"}}>
             <Container fluid className='d-flex flex-column mx-0 px-0'>
-            <h4 className='text-dark my-0 ps-3 pe-1 my-3 pe-5'>JS Tutorial &nbsp; &nbsp;&nbsp; &nbsp;</h4>
+            <h4 className='text-dark my-0 ps-3 pe-1 my-3 pe-5'>JS Tutorial &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;</h4>
                 <div className="flex-column">
                     <p className='text-dark my-0 ps-3 paraCol' onClick={Navigate}>JS HOME</p>
                     <p className='text-dark my-0 ps-3 paraCol' onClick={Navigate2}>JS Introduction</p>
@@ -43,11 +43,10 @@ function VerticalNavJS() {
                     <p className='text-dark my-0 ps-3 paraCol'>JS Numbers</p>
                     <p className='text-dark my-0 ps-3 paraCol'>JS BigInt</p>
                     <p className='text-dark my-0 ps-3 paraCol'>JS Number Methods</p>
-                    <p className='text-dark my-0 ps-3 paraCol'>JS Number Methods</p>
-                    <p className='text-dark my-0 ps-3 paraCol'>JS Number Methods</p>
-                    <p className='text-dark my-0 ps-3 paraCol'>JS Number Methods</p>
-                    <p className='text-dark my-0 ps-3 paraCol'>JS Number Methods</p>
-                    <p className='text-dark my-0 ps-3 paraCol'>JS Number Methods</p>
+                    <p className='text-dark my-0 ps-3 paraCol'>JS Number properties</p>
+                    <p className='text-dark my-0 ps-3 paraCol'>JS Arrays</p>
+                    <p className='text-dark my-0 ps-3 paraCol'>JS Array Methods</p>
+                    <p className='text-dark my-0 ps-3 paraCol'>JS Array Sort</p>
                 </div>
             </Container>
         </div>

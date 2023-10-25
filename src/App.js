@@ -7,8 +7,9 @@ import CssPage from './components/Pages/CssPage';
 import CssIntro from './components/Pages/CssIntro';
 import CssSyntax from './components/Pages/CssSyntax';
 import JSPage from './components/Pages/JSPage';
-import Login from './components/Pages/Login'
 import JSIntro from './components/Pages/JSIntro';
+import SQLPage from './components/Pages/SQLPage';
+import PythonPage from './components/Pages/PythonPage';
 
 function App() {
   return (
@@ -24,7 +25,8 @@ function App() {
             <Route path='/css/syntax' element={<CssSyntax />}></Route>
             <Route path='/js/home' element={<JSPage />}></Route>
             <Route path='/js/intro' element={<JSIntro />}></Route>
-            <Route path='/login' element={<Login />}></Route>
+            <Route path='/sql/home' element={<SQLPage />}></Route>
+            <Route path='/python/home' element={<PythonPage />}></Route>
         </Routes>
       </Router>
     </>

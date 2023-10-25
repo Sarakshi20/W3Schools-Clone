@@ -44,20 +44,20 @@ function VerticalNav() {
                     <p className='text-dark my-0 ps-3 paraCol'>HTML Fevicons</p>
                     <p className='text-dark my-0 ps-3 paraCol'>HTML Page Title</p>
                     <p className='text-dark my-0 ps-3 paraCol'>HTML Tables</p>
-                    <p className='text-dark my-0 ps-3 paraCol'>HTML Lists</p>
-                    <p className='text-dark my-0 ps-3 paraCol'>HTML Lists</p>
-                    <p className='text-dark my-0 ps-3 paraCol'>HTML Lists</p>
-                    <p className='text-dark my-0 ps-3 paraCol'>HTML Lists</p>
-                    <p className='text-dark my-0 ps-3 paraCol'>HTML Lists</p>
-                    <p className='text-dark my-0 ps-3 paraCol'>HTML Lists</p>
-                    <p className='text-dark my-0 ps-3 paraCol'>HTML Lists</p>
-                    <p className='text-dark my-0 ps-3 paraCol'>HTML Lists</p>
-                    <p className='text-dark my-0 ps-3 paraCol'>HTML Lists</p>
-                    <p className='text-dark my-0 ps-3 paraCol'>HTML Lists</p>
-                    <p className='text-dark my-0 ps-3 paraCol'>HTML Lists</p>
-                    <p className='text-dark my-0 ps-3 paraCol'>HTML Lists</p>
-                    <p className='text-dark my-0 ps-3 paraCol'>HTML Lists</p>
-                    <p className='text-dark my-0 ps-3 paraCol'>HTML Lists</p>
+                    <p className='text-dark my-0 ps-3 paraCol'>HTML Block & Inline</p>
+                    <p className='text-dark my-0 ps-3 paraCol'>HTML Classes</p>
+                    <p className='text-dark my-0 ps-3 paraCol'>HTML Id</p>
+                    <p className='text-dark my-0 ps-3 paraCol'>HTML Iframes</p>
+                    <p className='text-dark my-0 ps-3 paraCol'>HTML javaScript</p>
+                    <p className='text-dark my-0 ps-3 paraCol'>HTML File Paths</p>
+                    <p className='text-dark my-0 ps-3 paraCol'>HTML Head</p>
+                    <p className='text-dark my-0 ps-3 paraCol'>HTML Layout</p>
+                    <p className='text-dark my-0 ps-3 paraCol'>HTML Responsive</p>
+                    <p className='text-dark my-0 ps-3 paraCol'>HTML Computercode</p>
+                    <p className='text-dark my-0 ps-3 paraCol'>HTML Semantics</p>
+                    <p className='text-dark my-0 ps-3 paraCol'>HTML Style Guide</p>
+                    <p className='text-dark my-0 ps-3 paraCol'>HTML Entities</p>
+                    <p className='text-dark my-0 ps-3 paraCol'>HTML Symbols</p>
                 </div>
             </Container>
         </div>

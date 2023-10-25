@@ -14,10 +14,6 @@ function NavHome(){
         Navigate('/');
     }
 
-    function handleNavigate2(){
-        Navigate('/login');
-    }
-
     return(
     <div style={{position: "fixed",width:"100%",zIndex:2}}>
     <Navbar expand="md" className="bg-white py-0">
@@ -122,7 +118,7 @@ function NavHome(){
             <Nav.Link href="#abc" className='ms-3 d-none d-xl-block'><i class="fa-solid fa-cart-shopping" style={{color: "#9663f6"}}></i><span className='ps-2'>Certificates</span></Nav.Link>
             <ButtonGroup className='d-none d-md-block ms-3 rounded-pill' style={{background:"#d9eee1"}}>
                 <Button className='rounded-pill border-0' style={{background:"#04AA6D"}}>Sign Up</Button>
-                <Button className='rounded-pill text-dark border-0' onClick={handleNavigate2} style={{background:"#d9eee1"}}>Log in</Button>
+                <Button className='rounded-pill text-dark border-0' style={{background:"#d9eee1"}}>Log in</Button>
             </ButtonGroup>
             </Navbar.Collapse>
         </Container>
