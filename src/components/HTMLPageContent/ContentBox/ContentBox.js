@@ -6,7 +6,7 @@ import './styles.css'
 
 function ContentBox() {
   return (
-    <Container fluid className='me-0 media' style={{paddingTop:"100px"}}>
+    <Container fluid className='me-0 pe-0 media' style={{paddingTop:"100px"}}>
         <Container fluid className='ps-lg-3 ms-lg-5 ps-md-2 ms-md-5 m-sm-0 p-sm-0 m-xs-0 p-xs-0'>
             <h1 className='display-5 text-bold mt-4 mx-4'>HTML Tutorial</h1>
             <Button className='m-4' style={{backgroundColor: "#04AA6D",border:"none"}}>{"<"} Previous</Button>

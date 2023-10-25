@@ -8,6 +8,10 @@ function VerticalNavJS() {
     navigate("/js/home");
   }
 
+  function Navigate2(){
+    navigate("/js/intro");
+  }
+
   return (
     <Container className='px-0 d-none d-md-flex' style={{paddingTop:"88px",position:"fixed",top:"0",boxSizing:"border-box",
     overflowX:"hidden",bottom:"0"}}>
@@ -15,8 +19,8 @@ function VerticalNavJS() {
             <Container fluid className='d-flex flex-column mx-0 px-0'>
             <h4 className='text-dark my-0 ps-3 pe-1 my-3 pe-5'>JS Tutorial &nbsp; &nbsp;&nbsp; &nbsp;</h4>
                 <div className="flex-column">
-                    <p className='text-light my-0 ps-3 paraCol' onClick={Navigate} style={{backgroundColor:"#04AA6D"}}>JS HOME</p>
-                    <p className='text-dark my-0 ps-3 paraCol'>JS Introduction</p>
+                    <p className='text-dark my-0 ps-3 paraCol' onClick={Navigate}>JS HOME</p>
+                    <p className='text-dark my-0 ps-3 paraCol' onClick={Navigate2}>JS Introduction</p>
                     <p className='text-dark my-0 ps-3 paraCol'>JS Where To</p>
                     <p className='text-dark my-0 ps-3 paraCol'>JS Output</p>
                     <p className='text-dark my-0 ps-3 paraCol'>JS Statements</p>

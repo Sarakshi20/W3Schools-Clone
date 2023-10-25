@@ -12,6 +12,10 @@ function VerticalNavCss() {
     navigate("/css/intro");
   }
 
+  function Navigate3(){
+    navigate("/css/syntax");
+  }
+
   return (
     <Container className='px-0 d-none d-md-flex' style={{paddingTop:"88px",position:"fixed",top:"0",boxSizing:"border-box",
     overflowX:"hidden",bottom:"0"}}>
@@ -21,7 +25,7 @@ function VerticalNavCss() {
                 <div className="flex-column">
                     <p className='text-dark my-0 ps-3 paraCol' onClick={Navigate}>CSS HOME</p>
                     <p className='text-dark my-0 ps-3 paraCol' onClick={Navigate2}>CSS Introduction</p>
-                    <p className='text-dark my-0 ps-3 paraCol'>CSS Syntax</p>
+                    <p className='text-dark my-0 ps-3 paraCol' onClick={Navigate3}>CSS Syntax</p>
                     <p className='text-dark my-0 ps-3 paraCol'>CSS Selectors</p>
                     <p className='text-dark my-0 ps-3 paraCol'>CSS How To</p>
                     <p className='text-dark my-0 ps-3 paraCol'>CSS Comments</p>
